@@ -1,0 +1,52 @@
+ .body{
+     background: blue;
+ }
+
+.block,.block2{
+     font-size: 20px;
+     color:red;
+    }
+    .block,.block2{
+    font-size: 20px;
+    color:blue;
+    }
+    .fontsize30{
+     font-style:30px;
+    }
+    .italic{
+    font-style: italic;
+    }
+    .colorred{
+    color:blue;
+    }
+    .textright{
+    text-align: center;
+    }
+    .font700{
+     font-weight: 700;
+    }
+    .decoration{
+     text-decoration: line-through;
+    }
+    .shadow{
+    text-shadow: 1px 1px 10px #000;
+    }
+    .uppercase{
+    text-transform: uppercase;
+    }
+    .denit{
+     text-indent: 50px;
+    }
+    .ispace{
+     letter-spacing: 5px;
+    }
+    .wospac{
+     word-spacing: 5px;
+    }
+    .whitespace{
+     white-space: normal;
+    }
+    .leneheihgt{
+     line-height: 20px;
+    }
+    
