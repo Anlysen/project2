@@ -1,7 +1,8 @@
-body{
-    padding: 30px;
-}
 
+body{
+    position: absolute;
+    padding: 50px;
+}
 .block{
     margin: 0 0 30px 0;
 }
@@ -18,16 +19,12 @@ body{
     background-color: green;
 }
 
-.block p:nth-child(3):hover{
-    background-color: yellow;
-}
-
-.block:hover{
-
+.block p:nth-child(1):hover{
+    background-color: green;
 }
 
 .block p{
-    font-size: 18px;
+    font-style: 18px;
     line-height: 24px;
     margin: 0px 0px 20px 0px;
 }
@@ -37,12 +34,31 @@ body{
 }
 
 .link:visited{
-    color: green;
+    color: violet;
 }
 
-
 .link:active{
-    color: yellow       ;
+    color: aqua;
+}
+
+.textbutton{
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #666;
+    font-style: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px 0px 30px 0px;
+}
+
+.textbutton:hover{
+    background-color: #333;
+    color: yellow;
+}
+
+.textbutton:active{
+    background-color: #eee;
 }
 
 .textinput{
@@ -55,27 +71,7 @@ body{
 }
 
 .textinput:focus{
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-
-.textbutton{
-    display: block;
-    width: 300px;
-    height: 50px;
-    background-color: #666;
-    font-style:18px;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0px 0px 30px 0px;
-}
-
-.textbutton:hover{
-    background-color:#333;
-    color: yellow;
-}
-
-.textbutton:active{
-    background-color: #eee;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
 }
 
 .list{}
@@ -90,7 +86,6 @@ body{
 
 .list li:last-child{
     color: blue;
-    font-weight: 700;
 }
 
 .list li:nth-child(even){
